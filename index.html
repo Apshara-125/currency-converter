@@ -4,12 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Currency Converter</title>
-    <!-- ✅ Fix CSS path -->
+
+    <!-- CSP Fix -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' http://localhost:8080;">
+
+    <!-- Correct CSS Path -->
     <link rel="stylesheet" href="/userContent/currency-converter/assets/index-D8b4DHJx.css" />
   </head>
   <body>
     <div id="root"></div>
-    <!-- ✅ Fix JS path -->
+
+    <!-- Correct JS Path -->
     <script type="module" src="/userContent/currency-converter/assets/index-D8b4DHJx.js"></script>
   </body>
 </html>
