@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/userContent/currency-converter/',   // 👈 important for Jenkins
+  base: '/userContent/currency-converter/',   // 👈 super important
 })
